@@ -9,7 +9,7 @@ const todoSchema = new mongoose.Schema({
     // Schema definition here
     title:String,
     descryption:String,
-    completed: boolean
+    completed: Boolean
 });
 
 
